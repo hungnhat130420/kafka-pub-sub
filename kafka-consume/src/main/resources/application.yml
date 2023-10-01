@@ -1,0 +1,8 @@
+
+spring:
+    main:
+        banner-mode: off
+    kafka:
+      consumer:
+        group-id: default-consumer
+        auto-offset-reset: earliest
